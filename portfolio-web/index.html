@@ -3,86 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meus Projetos | Renan Braga</title>
+  <title>Renan Braga | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <h1>Meus Projetos</h1>
-      <p class="subtitle">Renan Benon Nogueira Braga &mdash; Desenvolvedor em formacao</p>
-      <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#tecnologias">Tecnologias</a>
-        <a href="#contato">Contato</a>
-        <a href="https://github.com/renanbnb" target="_blank">GitHub</a>
-      </nav>
+  <nav class="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">RB</span>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <main>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Ola, me chamo</p>
+        <h1 class="hero-name">Renan Braga</h1>
+        <h2 class="hero-role">Desenvolvedor em Formacao</h2>
+        <p class="hero-desc">Estudante de Analise e Desenvolvimento de Sistemas no CEUB. Apaixonado por tecnologia, com experiencia internacional em Malta e em constante evolucao profissional.</p>
+        <div class="hero-buttons">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+          <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn btn-outline">Portfolio Completo</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/renanbnb" target="_blank" class="social-link">GitHub</a>
+          <a href="https://www.linkedin.com/in/renanbnb" target="_blank" class="social-link">LinkedIn</a>
+          <a href="https://sites.google.com/view/portfliorenanbraga/in%C3%ADcio" target="_blank" class="social-link">Google Sites</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="foto.jpg" alt="Renan Benon Nogueira Braga">
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="sobre" class="container">
-      <h2>Sobre</h2>
-      <p>Sou estudante de Analise e Desenvolvimento de Sistemas no Centro Universitario de Brasilia (CEUB). Tenho experiencia nas areas de atendimento ao publico, vendas e suporte administrativo. Tive uma experiencia internacional em Malta e atualmente busco desenvolver minhas habilidades na area de tecnologia.</p>
-      <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn">Ver Portfolio Completo</a>
-    </section>
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <span class="about-icon">🎓</span>
+          <h3>Formacao</h3>
+          <p>Analise e Desenvolvimento de Sistemas — Centro Universitario de Brasilia (CEUB)</p>
+        </div>
+        <div class="about-card">
+          <span class="about-icon">🌍</span>
+          <h3>Experiencia Internacional</h3>
+          <p>Vivencia em Malta (Ago-Out 2025), desenvolvendo comunicacao em ingles e adaptacao multicultural</p>
+        </div>
+        <div class="about-card">
+          <span class="about-icon">💼</span>
+          <h3>Experiencia Profissional</h3>
+          <p>Assistente Administrativo, Gerente de Vendas e Atendimento ao cliente em empresas de Brasilia e Malta</p>
+        </div>
+        <div class="about-card">
+          <span class="about-icon">🚀</span>
+          <h3>Objetivo</h3>
+          <p>Crescer profissionalmente na area de tecnologia e inovacao, aplicando habilidades tecnicas e humanas</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="projetos" class="container">
-      <h2>Projetos</h2>
-      <div class="cards">
+  <section id="projetos" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <div class="projects-grid">
 
-        <div class="card destaque">
-          <span class="badge">Destaque</span>
-          <h3>Portfolio Profissional</h3>
-          <p>Pagina de portfolio completa com experiencias profissionais, formacao academica e habilidades tecnicas.</p>
-          <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn">Ver ao Vivo</a>
-          <a href="https://github.com/renanbnb/portfolioHUB" target="_blank" class="btn btn-outline">GitHub</a>
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-tag">Destaque</span>
+            <span class="project-tag tag-live">Ao Vivo</span>
+          </div>
+          <h3>Portfolio Profissional HUB</h3>
+          <p>Portfolio digital completo com informacoes profissionais, academicas e pessoais. Desenvolvido com HTML e CSS puro.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>GitHub Pages</span>
+          </div>
+          <div class="project-links">
+            <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn btn-primary btn-sm">Ver ao Vivo</a>
+            <a href="https://github.com/renanbnb/portfolioHUB" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>Projetos Academicos</h3>
-          <p>Trabalhos e desafios desenvolvidos no curso de ADS, incluindo este repositorio de versionamento com Git e GitHub.</p>
-          <a href="https://github.com/renanbnb/meus-projetos/tree/main/projetos-academicos" target="_blank" class="btn">Ver no GitHub</a>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Bootcamp I</span>
+          </div>
+          <h3>Portfolio Profissional Digital</h3>
+          <p>Portfolio criado com Google Sites, Google Apresentacoes e video de apresentacao. Inicio da trajetoria em tecnologia.</p>
+          <div class="project-tech">
+            <span>Google Sites</span><span>Slides</span><span>YouTube</span>
+          </div>
+          <div class="project-links">
+            <a href="https://sites.google.com/view/portfliorenanbraga/in%C3%ADcio" target="_blank" class="btn btn-primary btn-sm">Ver Site</a>
+            <a href="https://docs.google.com/presentation/d/1wDo6L057n6bD_aptX8CJNQhlA6mSuQBXBZ-nIOF1xdo/edit?usp=drive_link" target="_blank" class="btn btn-outline btn-sm">Slides</a>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>Projetos Pessoais</h3>
-          <p>Experimentos e projetos autorais desenvolvidos para aprender e praticar novas tecnologias.</p>
-          <a href="https://github.com/renanbnb/meus-projetos/tree/main/projetos-pessoais" target="_blank" class="btn">Ver no GitHub</a>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Bootcamp II</span>
+          </div>
+          <h3>Repositorio com Versionamento</h3>
+          <p>Repositorio GitHub com estrutura organizada de projetos academicos e pessoais, versionamento Git e GitHub Pages.</p>
+          <div class="project-tech">
+            <span>Git</span><span>GitHub</span><span>GitHub Pages</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/renanbnb/meus-projetos" target="_blank" class="btn btn-primary btn-sm">GitHub</a>
+          </div>
         </div>
 
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="tecnologias" class="container">
-      <h2>Tecnologias</h2>
-      <div class="tech-list">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>GitHub Pages</span>
+  <section id="habilidades" class="section">
+    <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Tecnologia</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git</span><span>GitHub</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Ferramentas</h3>
+          <div class="skill-tags">
+            <span>GitHub Pages</span><span>Google Sites</span><span>Google Slides</span><span>VS Code</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Idiomas</h3>
+          <div class="skill-tags">
+            <span>Portugues (Nativo)</span><span>Ingles (Avancado)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span>Comunicacao</span><span>Adaptabilidade</span><span>Trabalho em equipe</span><span>Proatividade</span>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contato" class="container">
-      <h2>Contato</h2>
-      <p>Entre em contato ou veja mais sobre mim:</p>
-      <div class="contact-links">
-        <a href="https://github.com/renanbnb" target="_blank" class="btn">GitHub</a>
-        <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn">Portfolio</a>
+  <section id="contato" class="section section-dark">
+    <div class="container contact-container">
+      <h2 class="section-title">Contato</h2>
+      <p class="contact-desc">Estou aberto a oportunidades e colaboracoes. Entre em contato!</p>
+      <div class="contact-buttons">
+        <a href="https://github.com/renanbnb" target="_blank" class="btn btn-primary">GitHub</a>
         <a href="https://www.linkedin.com/in/renanbnb" target="_blank" class="btn btn-linkedin">LinkedIn</a>
+        <a href="https://renanbnb.github.io/portfolioHUB/" target="_blank" class="btn btn-outline">Portfolio HUB</a>
+        <a href="https://sites.google.com/view/portfliorenanbraga/in%C3%ADcio" target="_blank" class="btn btn-outline">Google Sites</a>
       </div>
-    </section>
-
-  </main>
+    </div>
+  </section>
 
   <footer>
-    <p>2026 Renan Benon Nogueira Braga &mdash; Desenvolvido com Git e GitHub Pages</p>
+    <p>2026 Renan Benon Nogueira Braga &mdash; ADS | CEUB | Brasilia</p>
   </footer>
 
 </body>
