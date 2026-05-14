@@ -16,13 +16,13 @@
 >
 > ```
 > meus-projetos/
-> ├── projetos-academicos/    # Projetos desenvolvidos em cursos e bootcamps
+> ├── projetos-academicos/    
 > │   └── README.md
-> ├── projetos-pessoais/      # Projetos pessoais e experimentais
+> ├── projetos-pessoais/      
 > │   └── README.md
-> ├── documentacao/           # Documentos, slides e materiais de apoio
+> ├── documentacao/           
 > │   └── README.md
-> └── portfolio-web/          # Página web de portfólio (GitHub Pages)
+> └── portfolio-web/          
 >     ├── index.html
 >     ├── style.css
 >     └── README.md
@@ -61,7 +61,7 @@
 > ## 🔗 Links
 >
 > - 🌐 **GitHub Pages:** https://renanbnb.github.io/meus-projetos
-> - - 💼 **LinkedIn:** https://linkedin.com/in/renanbnb
+> - - 💼 **LinkedIn:** https://www.linkedin.com/in/renan-braga-385791383/
 >  
 >   - ---
 >
