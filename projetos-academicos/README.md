@@ -1,41 +1,23 @@
-# 🎓 Projetos Acadêmicos
+# Projetos acadêmicos
 
-Esta pasta contém todos os projetos desenvolvidos em cursos, bootcamps e atividades acadêmicas.
+Aqui ficam as entregas, exercícios e desafios do curso de Análise e Desenvolvimento de Sistemas no CEUB.
+
+## O que tem hoje
+
+Por enquanto, só uma entrega concreta:
+
+- **Desafio — Entrega Intermediária**: criação deste repositório, com versionamento Git, organização em pastas e publicação no GitHub Pages. O PDF do enunciado está em `../documentacao/`.
+
+Conforme o curso avança, vou adicionando aqui os trabalhos das próximas disciplinas (lógica de programação, banco de dados, projeto integrador, etc.).
+
+## Padrão de organização
+
+Cada projeto deste diretório vai ter:
+
+1. Uma pasta com nome curto descrevendo o trabalho.
+2. Um `README.md` interno explicando o enunciado, a solução e o que aprendi fazendo.
+3. O código-fonte ou os arquivos entregues.
 
 ---
 
-## 📋 Lista de Projetos
-
-| Projeto | Descrição | Tecnologias | Status |
-|--------|-----------|-------------|--------|
-| Desafio - Entrega Intermediária | Criação de repositório com versionamento Git e GitHub | Git, GitHub, GitHub Pages | ✅ Concluído |
-
----
-
-## 🗂️ Organização
-
-Cada projeto possui sua própria pasta com:
-- `README.md` — Documentação e descrição do projeto
-- - Código-fonte e arquivos do projeto
-  - - Histórico de commits com mensagens descritivas
-   
-    - ---
-
-    ## 🛠️ Tecnologias Utilizadas
-
-    - HTML5
-    - - CSS3
-      - - Git & GitHub
-       
-        - ---
-
-        ## 📌 Observações
-
-        Todos os projetos seguem as boas práticas de:
-        - Commits semânticos (`feat:`, `fix:`, `docs:`, etc.)
-        - - Branches organizadas
-          - - Documentação clara no README
-           
-            - ---
-
-            [⬅️ Voltar ao repositório principal](../README.md)
+← [voltar para o repositório principal](../README.md)
