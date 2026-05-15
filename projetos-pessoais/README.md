@@ -1,42 +1,23 @@
-# 💻 Projetos Pessoais
+# Projetos pessoais
 
-Esta pasta contém projetos desenvolvidos por iniciação própria, experimentos e idéias pessoais.
+Aqui ficam as coisas que faço fora da faculdade — desde experimentos rápidos para aprender uma tag de CSS nova até ideias que viram (ou não) algo maior.
+
+Se você está vindo do meu repositório principal, esse é o canto mais "laboratório" do meu portfólio.
+
+## O que tem hoje
+
+- **`portfolio-web/`** — a página de portfólio que está publicada via GitHub Pages. HTML e CSS puro, sem framework. É o primeiro projeto em que eu cuidei de design, responsividade e acentuação.
+
+## Próximas ideias
+
+Coisas que estou querendo testar quando der tempo:
+
+- Um clone simples de algum app que uso (Spotify mini, calculadora).
+- Praticar JavaScript com pequenos jogos no canvas.
+- Tentar consumir uma API pública (filmes, clima, etc.).
+
+A ideia aqui não é ter projetos perfeitos — é ter projetos que mostrem progresso ao longo dos commits.
 
 ---
 
-## 📋 Lista de Projetos
-
-| Projeto | Descrição | Tecnologias | Status |
-|--------|-----------|-------------|--------|
-| Portfolio Web | Página web de portfólio pessoal | HTML, CSS | ✅ Concluído |
-
----
-
-## 🗂️ Organização
-
-Cada projeto possui sua própria pasta com:
-- `README.md` — Documentação e descrição do projeto
-- - Código-fonte e arquivos do projeto
-  - - Histórico de commits organizado
-   
-    - ---
-
-    ## 🛠️ Tecnologias Utilizadas
-
-    - HTML5
-    - - CSS3
-      - - JavaScript
-        - - Git & GitHub
-         
-          - ---
-
-          ## 🎯 Objetivos
-
-          - Praticar e aprimorar habilidades técnicas
-          - - Experimentar novas tecnologias
-            - - Construir um portfólio sólido e diversificado
-              - - Compartilhar soluções e aprendizados com a comunidade
-               
-                - ---
-
-                [⬅️ Voltar ao repositório principal](../README.md)
+← [voltar para o repositório principal](../README.md)
